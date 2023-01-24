@@ -1,0 +1,56 @@
+*) first add folder in git with cmd
+   git init
+
+____________________________________________________________________
+|                                                                   |
+| you are install first time git in your computer                   |
+| then,                                                             |
+| config git with cmd                                               |
+|   git config --global user.name "Madhav Nandan Singh"             |
+|   git config --global user.email "madhavnandansingh@gmail.com"    |
+|___________________________________________________________________|
+
+Second add file in staging area with cmd
+  git add filename
+
+ then ,
+   commit with cmd
+   git commit -m "show message if you show in log"
+
+check log
+  git log
+
+check status
+  git status      
+
+switching branch / change branch
+   git checkout <branch name / hash code>
+
+show all branch
+  git branch
+
+create branch
+  git branch <name>
+
+directly create and switching branch
+  git checkout -b <name>
+
+Merge branch
+  git Merge <name of branch>
+
+if your app is used any secrate key then create .gitignore
+and write file name in .gitignore
+
+Github:-
+first create repo
+
+Second if you do not add path of git hub repo
+then ,
+  git remote add origin <path of github repo>
+  git branch -M master
+then push
+  git push -u origin master
+
+show which repo public your project or store repo name
+      git remote -v
+      
