@@ -54,3 +54,5 @@ then push
 show which repo public your project or store repo name
       git remote -v
       
+if you are modify code then,
+  again add , commit and push in  git cmd;      
